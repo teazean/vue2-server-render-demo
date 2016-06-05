@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "version": "",
+  "scripts": {
+    "wepack-server": "webpack-dev-server --config build/webpack.server.config.js --content-base test/webpackserver/ --port 8081"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "e": "0.0.4",
+    "entities": "^1.1.1",
+    "express": "^4.13.4",
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

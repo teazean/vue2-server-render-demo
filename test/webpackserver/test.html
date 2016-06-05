@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="app">
+		<my-component>{{{content}}}</my-component>
+	</div>
+	<script src="/dist/vue.js"></script>
+	<script type="text/x-template" id="demo-template">
+		<div>
+			{{test}}
+		</div>
+	</script>
+	<script>
+		new Vue({
+			el: '#app',
+			template: '#demo-template',
+			data() {
+				return {
+					test: '11'
+				}
+			}
+		});
+	</script>
+</body>
+</html>
